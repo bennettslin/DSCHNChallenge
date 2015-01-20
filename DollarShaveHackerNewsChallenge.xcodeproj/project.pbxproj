@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		3F4EEA421A6DC5D9007A945B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4EEA411A6DC5D9007A945B /* main.m */; };
 		3F4EEA451A6DC5D9007A945B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4EEA441A6DC5D9007A945B /* AppDelegate.m */; };
-		3F4EEA481A6DC5D9007A945B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4EEA471A6DC5D9007A945B /* ViewController.m */; };
+		3F4EEA481A6DC5D9007A945B /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4EEA471A6DC5D9007A945B /* MainTableViewController.m */; };
 		3F4EEA4B1A6DC5D9007A945B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4EEA491A6DC5D9007A945B /* Main.storyboard */; };
 		3F4EEA4D1A6DC5D9007A945B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4EEA4C1A6DC5D9007A945B /* Images.xcassets */; };
 		3F4EEA501A6DC5D9007A945B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4EEA4E1A6DC5D9007A945B /* LaunchScreen.xib */; };
 		3F4EEA5C1A6DC5D9007A945B /* DollarShaveHackerNewsChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4EEA5B1A6DC5D9007A945B /* DollarShaveHackerNewsChallengeTests.m */; };
+		3F4EEA671A6DC674007A945B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4EEA661A6DC674007A945B /* WebViewController.m */; };
+		3F4EEA6A1A6DD976007A945B /* StoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4EEA691A6DD976007A945B /* StoryTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		3F4EEA411A6DC5D9007A945B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F4EEA431A6DC5D9007A945B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F4EEA441A6DC5D9007A945B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F4EEA461A6DC5D9007A945B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F4EEA471A6DC5D9007A945B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F4EEA461A6DC5D9007A945B /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		3F4EEA471A6DC5D9007A945B /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		3F4EEA4A1A6DC5D9007A945B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F4EEA4C1A6DC5D9007A945B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F4EEA4F1A6DC5D9007A945B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3F4EEA551A6DC5D9007A945B /* DollarShaveHackerNewsChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarShaveHackerNewsChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4EEA5A1A6DC5D9007A945B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F4EEA5B1A6DC5D9007A945B /* DollarShaveHackerNewsChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DollarShaveHackerNewsChallengeTests.m; sourceTree = "<group>"; };
+		3F4EEA651A6DC674007A945B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		3F4EEA661A6DC674007A945B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		3F4EEA681A6DD976007A945B /* StoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryTableViewCell.h; sourceTree = "<group>"; };
+		3F4EEA691A6DD976007A945B /* StoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 			children = (
 				3F4EEA431A6DC5D9007A945B /* AppDelegate.h */,
 				3F4EEA441A6DC5D9007A945B /* AppDelegate.m */,
-				3F4EEA461A6DC5D9007A945B /* ViewController.h */,
-				3F4EEA471A6DC5D9007A945B /* ViewController.m */,
+				3F4EEA461A6DC5D9007A945B /* MainTableViewController.h */,
+				3F4EEA471A6DC5D9007A945B /* MainTableViewController.m */,
+				3F4EEA681A6DD976007A945B /* StoryTableViewCell.h */,
+				3F4EEA691A6DD976007A945B /* StoryTableViewCell.m */,
+				3F4EEA651A6DC674007A945B /* WebViewController.h */,
+				3F4EEA661A6DC674007A945B /* WebViewController.m */,
 				3F4EEA491A6DC5D9007A945B /* Main.storyboard */,
 				3F4EEA4C1A6DC5D9007A945B /* Images.xcassets */,
 				3F4EEA4E1A6DC5D9007A945B /* LaunchScreen.xib */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F4EEA481A6DC5D9007A945B /* ViewController.m in Sources */,
+				3F4EEA481A6DC5D9007A945B /* MainTableViewController.m in Sources */,
 				3F4EEA451A6DC5D9007A945B /* AppDelegate.m in Sources */,
 				3F4EEA421A6DC5D9007A945B /* main.m in Sources */,
+				3F4EEA671A6DC674007A945B /* WebViewController.m in Sources */,
+				3F4EEA6A1A6DD976007A945B /* StoryTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
